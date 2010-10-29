@@ -1,0 +1,7 @@
+This project is a really simple command line tool to search for resources
+within jar files.  
+
+usage is pretty simple, the following command will find all properties files
+in jars in the current directory and below.
+java -jar grepJar ".*\.properties"
+ 
