@@ -18,7 +18,7 @@ public class Main {
         Pattern pat = Pattern.compile(args[0], Pattern.CASE_INSENSITIVE);
         File dir = new File(".");
         if (args.length == 2) {
-            dir = new File(args[0]);
+            dir = new File(args[1]);
         }
 
         for (File jar : new JarFinder(dir)) {
